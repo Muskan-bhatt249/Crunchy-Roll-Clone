@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#content{
+    height: 2000px;
+}
+#navbar{
+    height:50px;
+padding-top: 10px;
+
+    display:flex;
+    background-color:rgb(42, 42, 48) ;
+  
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: #f47521;
+}
+#tryfree{
+    font-size: 2px;
+    color: #f47521;
+}
+#premium{
+    font-size: 2px;
+    color: white;
+}
+#display{
+    height: 430px;
+    display: flex;
+    background-image: url(/backdrop.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+}
+#movies{
+    background-color: black;
+    color: white;
+    height: 2500px;
+}
+
+.row1{
+    height: 400px;
+    width: 250px;
+    margin: 10px;
+    background-color: #f47521;
+    display: inline-block
+}
+#block1{
+    margin-left: 130px;
+    background-image: url(block1.jpe);
+    background-size: contain;
+}
+#block2{
+    background-image: url(block2.jpg);
+    background-size: cover;
+}
+#block3{
+    background-image: url(block3.jpe);
+    background-size: contain;
+    background-position: center;
+}
+#block4{
+    background-image: url(block4.jpe);
+    background-size: cover;
+    background-position:center;
+}
+hr{
+    border: 2px solid orangered
+}
+#display2{
+    display: flex;
+    justify-content: center;
+
+}
+.row2{
+    height: 380px;
+    width: 250px;
+    margin: 10px;
+    background-color: #f47521;
+    display: inline-block
+}
+#block5{
+    margin-left: 130px;
+    background-image: url(block5.jpg);
+    background-size: contain;
+}
+#block6{
+    background-image: url(block6.jpg);
+    background-size: cover;
+}
+#block7{
+    background-image: url(block7.jpg);
+    background-size: contain;
+    background-position: center;
+}
+#block8{
+    background-image: url(block8.webp);
+    background-size: cover;
+    background-position:center;
+}
+.row3{
+    height: 380px;
+    width: 250px;
+    margin: 10px;
+    background-color: #f47521;
+    display: inline-block
+}
+#block9{
+    margin-left: 130px;
+    background-image: url(box9.jpg);
+    background-size: contain;
+}
+#block10{
+    background-image: url(box10.jpg);
+    background-size: cover;
+}
+#block11{
+    background-image: url(block11.jpg);
+    background-size: contain;
+    background-position: center;
+}
+#block12{
+    background-image: url(block12.webp);
+    background-size: cover;
+    background-position:center;
+}
+#poster{
+    margin-left: 130px;
+    margin-right: 0;
+    
+    display: inline-block;
+}
+#discription{
+    margin-left: 0;
+    display: inline-block;
+    color: white;
+    
+}
+#box{
+    display: flex;
+    justify-content:space-evenly;
+}
+a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(34, 130, 255);
+}
+#sub{
+    font-size: 5px;
+    color: white;
+}
+button{
+    background-color: #f47521;
+    color: black;
+    height: 50px;
+}
